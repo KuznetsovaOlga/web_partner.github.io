@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="https://use.fontawesome.com/b2e1db277f.js"></script>
+    <link rel="stylesheet" href="src/normalize.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Пчелозвон</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation-panel">
+            <div class="logo">
+                <img src="src/img/test-logo.png" alt="логотип" class="logo-img">
+                <h1 class="logo-text">Пчелозвон</h1>
+            </div>
+            <div class="wrapper-dropdown">
+                <div class="dropdown" id="js-dropdown">
+                    <div class="dropdown-title">Регион:<i class="fa fa-map-marker" aria-hidden="true"></i></div> 
+                    <div class="current-item" id="js-current-item">Москва и Московская обл.</div>
+                    <button class="dropdown-arrow">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </button>
+                    <ul class="dropdown-menu" id="js-dropdown-menu">
+                        <li class="dropdown-menu-item">Санкт-Петербург</li>
+                        <li class="dropdown-menu-item">Казань</li>
+                        <li class="dropdown-menu-item">Самара</li>
+                        <li class="dropdown-menu-item">Ставрополь</li>
+                        <li class="dropdown-menu-item">Нижний Новогод</li>
+                        <li class="dropdown-menu-item">Пермь</li>
+                    </ul>
+                </div>
+                <button class="dropdown-button">
+                    <a href="#" class="link" aria-label="ссылка на входа в личный аккаунт">Войти</a> 
+                </button>
+                <button class="dropdown-button-login">
+                    <a href="#" class="link-login" aria-label="ссылка на входа в личный аккаунт">
+                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    </a> 
+                </button>
+            </div>
+        </nav>
+        <nav class="main-nav">
+            <i class="fa fa-bars" aria-hidden="true" id="js-button-bars"></i>
+            <ul class="menu navigation-panel" id="js-menu">
+                <li class="menu-item" aria-label="как пользоваться">
+                    <i class="fa fa-cog" aria-hidden="true" ></i>
+                    <span>Как пользоваться</span>
+                </li>
+                <li class="menu-item" aria-label="наши партнеры">
+                    <i class="material-icons people">people</i>
+                    <span>Партнеры</span>
+                </li>
+                <li class="menu-item" aria-label="стать партнером">
+                    <i class="material-icons person_add">person_add</i>
+                    <span>Стать партнером</span>
+                </li>
+                <li class="menu-item" aria-label="регистрация">
+                    <span>Регистрация</span>
+                </li>
+                <li class="menu-item" aria-label="информация о системе">
+                    <span>О системе</span>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="info-block">
+            <h2 class="visually-hidden">Пчелайн</h2>
+            <div class="wrapper-main">
+                <div class="info-text">
+                    <div class="info-img">
+                        <img src="src/img/test-honeybee.png" alt="картинка пчелы" class="img">
+                        <h2 class="info-title">Пчелайн</h2>
+                    </div>
+                    <a href="#" class="info-link" aria-label="ссылка на сайт пчелайн">http://www.pcheline.ru</a>
+                </div>
+                <p class="info-description">
+                    Салоны сотовой связи Пчелайн – ведущая компания в России и странах СНГ по предоставлению услуг мобильной и фиксированной связи, доступа в интернет, кабельного и спутникового ТВ-вещания, цифровых сервисов и мобильных приложений, финансовых услуг и сервисов электронной коммерции.
+                </p>
+            </div>
+        </section>
+    
+        <section class="offers-block">
+            <h2 class="offers-title">Предложения партнера</h2>
+            <p class="offers-text">Чтобы воспользоваться предложениями партнёра,<a href="#" aria-label="ссылка на вход в аккаунт">войдите в свой кабинет</a> или <a href="#" aria-label="ссылка для регистрацию">зарегистрируйтесь</a></p>
+            
+            <div class="slider-wrapper">
+
+                <button class="btn play-left" aria-label="кнопка просмотра влево">
+                    <i class="material-icons play_circle_outline--left">play_circle_outline</i>
+                </button>
+
+                <div class="slider">
+                    <ul class="offer-list">
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф ау</h3>
+                            <img src="src/img/test-hone_0.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Безлимитный интернет</li>
+                                <li class="offer-sublist-item">Звонки на все сети</li>
+                            </ul>
+                            <p class="offer-price">250 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф жу-ау</h3>
+                            <img src="src/img/test-hone_1.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Настройка тарифа по-своему</li>
+                                <li class="offer-sublist-item">Минуты бесплатные</li>
+                            </ul>
+                            <p class="offer-price">290 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф жу-ало</h3>
+                            <img src="src/img/test-hone_2.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Домашний интернет</li>
+                                <li class="offer-sublist-item">Мобильная связь в подарок</li>
+                            </ul>
+                            <p class="offer-price">300 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф тарифище</h3>
+                            <img src="src/img/test-hone_3.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Интерактивное ТВ</li>
+                                <li class="offer-sublist-item">Мобильная связь в подарок</li>
+                            </ul>
+                            <p class="offer-price">330 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф жу-жу-жу</h3>
+                            <img src="src/img/test-hone_4.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Легкий номер </li>
+                                <li class="offer-sublist-item">Телефон в подарок</li>
+                            </ul>
+                            <p class="offer-price">350 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+            
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф заЖвонит</h3>
+                            <img src="src/img/test-rat.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Легкий номер </li>
+                                <li class="offer-sublist-item">Телефон в подарок</li>
+                            </ul>
+                            <p class="offer-price">330 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф жвоночек</h3>
+                            <img src="src/img/test-lobster.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Легкий номер </li>
+                                <li class="offer-sublist-item">Телефон в подарок</li>
+                            </ul>
+                            <p class="offer-price">330 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                        <li class="offer-item">
+                            <h3 class="offer-title">тариф жух-ало</h3>
+                            <img src="src/img/test-cat.png" alt="" class="offer-img">
+                            <ul class="offer-sublist">
+                                <li class="offer-sublist-item">Легкий номер </li>
+                                <li class="offer-sublist-item">Телефон в подарок</li>
+                            </ul>
+                            <p class="offer-price">330 руб.</p>
+                            <button class="offer-button">Хочу этот тариф</button>
+                        </li>
+                    </ul>
+                </div>
+                
+                <button class="btn play-right" aria-label="кнопка просмотра вправо">
+                    <i class="material-icons play_circle_outline-right">play_circle_outline</i>
+                </button>
+
+            </div>
+        </section>
+    
+        <section class="location-block">
+            <div class="location-block-map">
+                <h2 class="location-block-title">Ближайшие точки продаж партнера</h2>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9509.532721144584!2d30.34528984310997!3d59.92993531907997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LzRgtGB!5e0!3m2!1sru!2sru!4v1579701626551!5m2!1sru!2sru" width="960" height="370" frameborder="0" style="border:0;" allowfullscreen="" class="map-size"></iframe>
+                </div>
+            </div>
+
+            <div class="location-block-place">
+                <h2 class="location-block-title">Адреса</h2>
+                <ul class="place-list">
+                    <li class="place-item" aria-label="Лиговский пр., 43-45, Санкт-Петербург, 191040">Лиговский пр., 43-45, Санкт-Петербург, 191040</li>
+                    <li class="place-item" aria-label="Невский пр., 76, Санкт-Петербург, Ленинградская обл., 191025">Невский пр., 76, Санкт-Петербург, Ленинградская обл., 191025</li>
+                    <li class="place-item" aria-label="Владимирский просп., 23а, Санкт-Петербург, Ленинградская обл., 191025">Владимирский просп., 23а, Санкт-Петербург, Ленинградская обл., 191025</li>
+                    <li class="place-item" aria-label="Лиговский пр., 30А, Санкт-Петербург, Ленинградская область, 191040">Лиговский пр., 30А, Санкт-Петербург, Ленинградская область, 191040</li>
+                    <li class="place-item" aria-label="ул. Некрасова, 29, Санкт-Петербург, 191014">ул. Некрасова, 29, Санкт-Петербург, 191014</li>
+                    <li class="place-item" aria-label="Московский пр-т., 2/6, Санкт-Петербург, Ленинградская обл.">Московский пр-т., 2/6, Санкт-Петербург, Ленинградская обл.</li>
+                    <li class="place-item" aria-label="Литейный пр., 23, Санкт-Петербург, 191028">Литейный пр., 23, Санкт-Петербург, 191028</li>
+                    <li class="place-item" aria-label="Владимирский просп., 23а, Санкт-Петербург, Ленинградская обл., 191025">Владимирский просп., 23а, Санкт-Петербург, Ленинградская обл., 191025</li>
+                </ul>
+            </div>
+           
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <nav class="main-nav">
+            <ul class="menu navigation-panel">
+                <li class="menu-item" aria-label="как пользоваться">
+                    <i class="fa fa-cog" aria-hidden="true" ></i>
+                    <span>Как пользоваться</span>
+                </li>
+                <li class="menu-item" aria-label="наши партнеры">
+                    <i class="material-icons people">people</i>
+                    <span>Партнеры</span>
+                </li>
+                <li class="menu-item" aria-label="стать партнером">
+                    <i class="material-icons person_add">person_add</i>
+                    <span>Стать партнером</span>
+                </li>
+                <li class="menu-item" aria-label="регистрация">
+                    <span>Регистрация</span>
+                </li>
+                <li class="menu-item" aria-label="информация о системе">
+                    <span>О системе</span>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-footer">
+            <div class="company-links">
+                <div class="logo">
+                    <img src="src/img/test-logo.png" alt="логотип" class="logo-img">
+                    <p class="logo-text">Пчелозвон</p>
+                </div>
+                <a href="#" class="company-link">info@company.ru</a>
+                <a href="#" class="company-link">www.company.ru</a>
+            </div>
+            <div class="internet-links">
+                <a href="#" class="link">
+                    <img src="src/img/test-app-store.png" alt="ссылка на app store" class="internet">AppStore
+                </a>
+                <a href="#" class="link">
+                    <img src="src/img/test-google-play.png" alt="ссылка на google play" class="internet">GooglePlay
+                </a>
+            </div>
+            <div class="social-links">
+                <p class="social-links-title">Мы в соцсетях</p>
+                <ul class="social-links-list">
+                    <li class="social-links-item" aria-label="вконтакте">
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                    </li>
+                    <li class="social-links-item" aria-label="facebook">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </li>
+                    <li class="social-links-item" aria-label="instagram">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </li>
+                    <li class="social-links-item" aria-label="linkedin">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </li>
+                    <li class="social-links-item" aria-label="одноклассники">
+                        <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <p class="text">
+                    192216, Санкт-Петербург, ул. Всеволода Вишневского, 12А +7 812 999 99 99
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+<script src="src/js/file.js"></script>
+
+</body>
+
+</html>
